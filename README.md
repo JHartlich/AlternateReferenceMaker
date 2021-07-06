@@ -14,6 +14,6 @@ AlternateReferenceMaker can handle called variants of a multi-FASTA file.
 ```
 ### Positional Arguments:
 ```
-  INPUT           name of FASTA file (must be first argument) \ 
+  INPUT           name of FASTA file (must be first argument)  
                   name of VCF file (must be second argument) 
 ```
