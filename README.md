@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/333140458.svg)](https://zenodo.org/badge/latestdoi/333140458)
 
 is a command line based tool to integrate called variants into genomic sequences. \
-To operate AlternateReferenceMaker needs the positional arguments: the FASTA file and the VCF, in this exact order. \
+To operate AlternateReferenceMaker needs the positional arguments: FASTA file and the VCF file, in this exact order. \
 AlternateReferenceMaker can handle called variants of a multi-FASTA file.
 
 ## Requirements
@@ -14,5 +14,6 @@ AlternateReferenceMaker can handle called variants of a multi-FASTA file.
 ```
 ### Positional Arguments:
 ```
-  INPUT           name of input FASTA file containing FASTA sequences followed by name of VCF containing called variants
+  INPUT           name of FASTA file (must be first argument) \ 
+                  name of VCF file (must be second argument) 
 ```
